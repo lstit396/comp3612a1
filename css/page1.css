@@ -1,0 +1,81 @@
+.body {
+    padding: 25px;
+}
+
+.bigbox {
+    border: 3px;
+    text-align: center;
+    margin: 25px;
+    width: 910px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.box {
+    display: inline-block;
+    border-radius: 5px;
+    width: 300px;
+    list-style-type: none;
+    text-align: center;
+    /*box-shadow: 3px 3px 3px gray;*/
+}
+
+.box:nth-child(3) {
+    background-color: #2F4F4F;
+}
+
+.box>span>dl>li {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.box>span.first>dl>li:first-child {
+    background-color: #5BB189;
+}
+
+.box>span.second>dl>li:first-child {
+    background-color: #4B0082;
+}
+.box>span.second>dl>li {
+    color: white;
+}
+.box>span.third>dl>li:first-child {
+    background-color: #EC632A;
+}
+
+.box>span>dl>li:nth-child(2n+1) {
+    top-padding: 5px;
+    bottom-padding: 5px;
+    background-color: rgba(47,59,64,0.35);
+}
+
+.box>span>dl>li:last-child {
+    margin: 20px;
+    background-color: #3A6BA5;
+}
+
+.box a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.box a:hover {
+    color: #437CBF;
+}
+
+.smallbox {
+    margin: 25px;
+    width: 910px;
+    background-color: #2F4F4F;
+    color: white;
+    padding: 10px;
+}
+
+.smallbox ol {
+    list-style-type: none;
+}
+
+.smallbox ol li {
+    background: url("../images/checkmark.svg") no-repeat;
+    background-size: 20px;
+    padding-left: 24px;
+}

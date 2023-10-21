@@ -1,0 +1,63 @@
+
+div.top {
+    text-align: center;
+    background-color: var(--);
+    color: white;
+    margins: 10px;
+}
+
+div.search {
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.main {
+    background-color: beige;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+thead tr {
+    text-align: center;
+    background-color: lightblue;
+}
+
+tbody tr {
+    text-align: center;
+}
+
+tbody {
+    /*padding: 10px;*/
+}
+
+img {
+    width: 150px;
+    padding: 5px;
+}
+
+.buttons img {
+    width: 24px;
+    height: 24px;
+}
+
+div.bottom {
+    margin-top: 10px;
+    background-color: beige;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> <meta charset="utf-8" />
+    <title>COMP 3612 Assignment #1, Page 2</title>
+    <link rel="stylesheet" href="css/variables-palette-7.css" />
+    <link rel="stylesheet" href="css/page2.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h1>Advanced Art Work Search</h1>
+    </div>
+    <div class="search">
+      <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+	<input type="text" value="Portrait" name="search">
+	<label for="text">Search:</label>
+	<input type="radio" name="filter" value="0">
+	<label for="history">History</label>
+	<input type="radio" name="filter" value="1">
+	<label for="person">Person</label>
+	<input type="radio" name="filter" value="2" checked>
+	<label for="landscape">Landscape</label>
+	<select name="subject" >
+	  <option value="Neo-Classicism">Neo-Classicism</option>
+	  <option value="Baroque">Baroque</option>
+	  <option value="Renaissance">Renaissance</option>
+	  <option value="Realism">Realism</option>
+	</select>
+    </div>
+    <div class="main">
+      <div class="top">
+      </div>
+      <div class="table">
+	<table>
+	<caption>Paintings</caption>
+	  <thead>
+	    <tr>
+	      <th colspan=3>Title</th>
+	      <th>Artist</th>
+	      <th>Year</th>
+	      <th>Genre</th>
+	      <th>Actions</th>
+	      </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td><input type="checkbox" name="index[]" value="10"></td>
+	      <th><a href="images/125010.jpg"><img src="images/125010.jpg"></a></th>
+	      <td>Portrait of Avina Christina Assink</td>
+	      <td>Kruseman, Jan</td>
+	      <td>1833</td>
+	      <td>Realism</td>
+	      <td>
+		<div class="buttons">
+		  <button type="button"><img src="images/edit.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/archive.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/delete.png" height="24" width="24"></button>
+		</div>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><input type="checkbox" name="index[]" value="20"></td>
+	      <td><a href="images/125020.jpg"><img src="images/125020.jpg"></a></td>
+	      <td>Portrait of William IV, King of the Netherlands</td>
+	      <td>Kruseman, Jan</td>
+	      <td>1839</td>
+	      <td>Realism</td>
+	      <td>
+		<div class="buttons">
+		  <button type="button"><img src="images/edit.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/archive.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/delete.png" height="24" width="24"></button>
+		</div>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><input type="checkbox" name="index[]" value="30"></td>
+	      <td><a href="images/128010.jpg"><img src="images/128010.jpg"></a></td>
+	      <td>Three girls from the Amsterdam Orphanage</td>
+	      <td>Schwartze, Therese</td>
+	      <td>1885</td>
+	      <td>Realism</td>
+	      <td>
+		<div class="buttons">
+		  <button type="button"><img src="images/edit.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/archive.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/delete.png" height="24" width="24"></button>
+		</div>
+	      </td>
+	    </tr>
+	    <tr>
+	      <td><input type="checkbox" name="index[]" value="40"></td>
+	      <td><a href="images/127010.jpg"><img src="images/127010.jpg"></a></td>
+	      <td>The Windmill at Wijk by Duurstede</td>
+	      <td>Ruisdael, Jacob van</td>
+	      <td>1570</td>
+	      <td>Dutch Golden Age</td>
+	      <td>
+		<div class="buttons">
+		  <button type="button"><img src="images/edit.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/archive.png" height="24" width="24"></button>
+		  <button type="button"><img src="images/delete.png" height="24" width="24"></button>
+		</div>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+      </div>
+    </div>
+    <div class="bottom">
+      <select name="actions" id="actions">
+	<option value="Archive">Archive</option>
+	<option value="Edit">Edit</option>
+	<option value="Delete">Delete</option>
+	<option value="Collection">Collection</option>
+      </select>
+      <input type="submit" value="Apply To All">
+    </div>
+    </form>
+  </body>
+</html>
